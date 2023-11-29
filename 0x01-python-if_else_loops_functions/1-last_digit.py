@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print(f"The string Last digit of {number} is", end=' ')
+print(f"Last digit of {number} is", end=' ')
 last_digit = abs(number) % 10 if number >= 0 else -(-number % 10)
 print(last_digit, end=' ')
 if last_digit > 5:
