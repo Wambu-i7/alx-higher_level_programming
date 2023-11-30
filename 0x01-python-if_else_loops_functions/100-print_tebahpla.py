@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for c in reversed(range(ord('a'), ord('z') + 1)):
-    print(chr(c) if c % 2 == 0 else chr(c + ord('A') - ord('a')), end='')
+    print("{}".format(chr(c)) if c % 2 == 0 else "{}".format(chr(c + ord('A') - ord('a'))), end='')
 print()
