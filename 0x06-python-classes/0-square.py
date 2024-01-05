@@ -3,6 +3,8 @@
 
 It provides a brief overview of the module's purpose and functionality.
 """
+
+
 class Square:
     """A class that represents a square."""
     pass
