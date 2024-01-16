@@ -24,7 +24,8 @@ class BaseGeometry(object):
         """
         integer_validator(self, name, value)
 
-        Validates that the value is an integer and meets certain conditions.
+        Validates that the value is an integer greater than 0.
+
 
         Parameters:
         - name (str): The name of the variable being validated.
