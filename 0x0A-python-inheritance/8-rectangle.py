@@ -26,7 +26,14 @@ class BaseGeometry:
 
 
 class Rectangle(BaseGeometry):
-    """Represent a rectangle using BaseGeometry."""
+    """Represent a rectangle using BaseGeometry.
+    Attributes:
+    - width (int): The width of the rectangle.
+    - height (int): The height of the rectangle.
+
+    Public Methods:
+    - area(self): Calculates and returns the area of the rectangle.
+    """
 
     def __init__(self, width, height):
         """Intialize a new Rectangle.
