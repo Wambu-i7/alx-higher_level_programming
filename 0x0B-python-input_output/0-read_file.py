@@ -1,13 +1,5 @@
 #!/usr/bin/python3
-    """
-    Reads the content of a text file (UTF-8) and prints it to stdout.
-
-    Parameters:
-    - filename (str): The name of the text file to be read. Default is an empty string.
-
-    Returns:
-    None
-    """
+"""Defines a text file-reading function."""
 
 
 def read_file(filename=""):
