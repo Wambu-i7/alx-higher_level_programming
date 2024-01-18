@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-def read_file(filename=""):
     """
     Reads the content of a text file (UTF-8) and prints it to stdout.
 
@@ -11,5 +10,6 @@ def read_file(filename=""):
     """
 
 
+def read_file(filename=""):
     with open(filename, mode='r', encoding='utf-8') as rfile:
         print(rfile.read())
