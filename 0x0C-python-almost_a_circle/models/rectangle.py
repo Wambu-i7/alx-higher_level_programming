@@ -28,6 +28,7 @@ class Base:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
+
 class Rectangle(Base):
     """
     Rectangle class representing a rectangle shape.
@@ -42,7 +43,7 @@ class Rectangle(Base):
         id (int): Unique identifier of the rectangle.
 
     Methods:
-        __init__(self, width, height, x=0, y=0, id=None): Class constructor to initialize rectangle attributes.
+        __init__(self, width, height, x=0, y=0, id=None): Class constructor.
         area(self): Calculate the area of the rectangle.
     """
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -52,12 +53,12 @@ class Rectangle(Base):
         Args:
             width (int): Width of the rectangle.
             height (int): Height of the rectangle.
-            x (int, optional): x-coordinate of the rectangle's position (default is 0).
-            y (int, optional): y-coordinate of the rectangle's position (default is 0).
-            id (int, optional): Unique identifier of the rectangle (default is None).
+            x (int, optional): x-coordinate of the rectangle (default is 0).
+            y (int, optional): y-coordinate of the rectangle (default is 0).
+            id (int, optional): Unique identifier of the rectangle..
 
         Note:
-            If id is not provided, it will be automatically assigned by the Base class constructor.
+            If id not provided,will be automatic assigned by the Base class.
         """
         super().__init__(id)
         self.width = width
@@ -69,11 +70,12 @@ class Rectangle(Base):
     def width(self):
         """Getter for the width attribute."""
         return self.__width
+
     @width.setter
     def width(self, value):
         """Setter for the width attribute."""
         self.__width = value
-    
+
     @property
     def height(self):
         """Getter for the height attribute."""
