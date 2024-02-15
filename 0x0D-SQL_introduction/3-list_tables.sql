@@ -1,2 +1,2 @@
--- List all tables from mysql.
-SHOW TABLES FROM `mysql`;
+-- List all tables from My SQL.
+SHOW TABLES;
